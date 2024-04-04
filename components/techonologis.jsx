@@ -9,6 +9,7 @@ import { SiJest } from "react-icons/si";
 import { SiRedis } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { FaGitSquare } from "react-icons/fa";
+import { SiFirebase } from "react-icons/si";
 
 export default function techonologis() {
   return (
@@ -31,6 +32,11 @@ export default function techonologis() {
         <div className='p-3 border-4 rounded-2xl border-neutral-800 '>
           <FaGitSquare className='text-4xl text-red-500' />
         </div>
+
+        <div className='p-3 border-4 rounded-2xl border-neutral-800 '>
+          <SiFirebase className='text-4xl text-yellow-500' />
+        </div>
+
         <div className='p-3 border-4 rounded-2xl border-neutral-800 '>
           <FaNodeJs className='text-4xl text-green-800' />
         </div>
